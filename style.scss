@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body {
+        font-family: sans-serif;
+        font-size: 35px;
+    }
+}
+
+.main_content {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+
+#window_size {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
