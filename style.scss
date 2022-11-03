@@ -1,3 +1,8 @@
+$color-1: #cdb4db; //mobile
+$color-2: #fff1e6; //tablet
+$color-3: #52b788; //laptop
+$color-4: #bee1e6; //desktop
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +18,7 @@
     display: grid;
     place-content: center;
     height: 100vh;
+    background-color: #fff;
 }
 
 #window_size {
@@ -22,4 +28,4 @@
     transform: translateX(-50%);
 }
 
-// 18:55 --> also remember to intall saas compiler extension in main PC
+// 20:30 --> also remember to intall saas compiler extension in main PC
